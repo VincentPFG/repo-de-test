@@ -8,17 +8,17 @@ public_folder: "/uploads"
 collections:
 -   
     name: "posts"
-    # label: "Posts"
+    label: "Posts"
     folder: "blog"
     create: true
     # slug: "{{slug}}"
     fields:
     -
-        label: "Titre"
-        name: "title"
+        label: "Title"
+        # name: "title"
         widget: "string"
     -
-        # label: "Publish Date"
+        label: "Publish Date"
         name: "date"
         widget: "date"
     -
