@@ -6,7 +6,7 @@ module.exports =
 	,
 		use: '@gridsome/source-filesystem'
 		options:
-			path: 'posts/**/*.md'
+			path: 'blog/**/*.md'
 			typeName: 'Post'
 	,
 		use: 'gridsome-plugin-netlify-cms'

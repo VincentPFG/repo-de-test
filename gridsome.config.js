@@ -9,7 +9,7 @@
       {
         use: '@gridsome/source-filesystem',
         options: {
-          path: 'posts/**/*.md',
+          path: 'blog/**/*.md',
           typeName: 'Post'
         }
       },
