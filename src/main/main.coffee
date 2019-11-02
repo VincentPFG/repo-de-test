@@ -3,9 +3,13 @@ import vuetify from './vuetify.coffee'
 import apolloProvider from './apollo.coffee'
 import store from './vuex.coffee'
 
+import VgImg from '~/components/VgImg.vue'
+import WImg from '~/components/WImg.vue'
 
 export default (Vue, {appOptions, head}) ->
 	Vue.component 'Layout', DefaultLayout
+	Vue.component 'VgImg', VgImg
+	Vue.component 'WImg', WImg
 
 	Object.assign appOptions, {
 		vuetify
