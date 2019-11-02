@@ -15,7 +15,7 @@ collections:
     fields:
     -
         label: "Title"
-        # name: "title"
+        name: "title"
         widget: "string"
     -
         label: "Publish Date"
