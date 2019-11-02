@@ -10,6 +10,8 @@ module.exports =
 			typeName: 'Post'
 	,
 		use: 'gridsome-plugin-netlify-cms'
+	,
+		use: 'gridsome-plugin-netlify-cms-paths'
 	]
 	
 	chainWebpack: (config) ->

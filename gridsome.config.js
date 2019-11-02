@@ -15,6 +15,9 @@
       },
       {
         use: 'gridsome-plugin-netlify-cms'
+      },
+      {
+        use: 'gridsome-plugin-netlify-cms-paths'
       }
     ],
     chainWebpack: function(config) {
