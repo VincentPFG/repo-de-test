@@ -4,5 +4,8 @@ Layout
 </template>
 
 <script lang='coffee'>
-
+export default
+    mounted: ->
+        {data} = await @$axios.get '/f/hello'
+        console.log data
 </script>

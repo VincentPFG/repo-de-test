@@ -6,10 +6,14 @@ import store from './vuex.coffee'
 import VgImg from '~/components/VgImg.vue'
 import WImg from '~/components/WImg.vue'
 
+import axios from 'axios'
+
 export default (Vue, {appOptions, head}) ->
 	Vue.component 'Layout', DefaultLayout
 	Vue.component 'VgImg', VgImg
 	Vue.component 'WImg', WImg
+
+	Vue::$axios = axios
 
 	Object.assign appOptions, {
 		vuetify
