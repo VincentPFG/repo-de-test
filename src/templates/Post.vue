@@ -8,11 +8,13 @@ query Post($path: String!) {
     post: post(path: $path) {
         title
         content
+        image
     }
 }
 </page-query>
 
 <script lang='coffee'>
+import '~/assets/markdown.sass'
 export default
     metaInfo: ->
         title: @$page.post.title

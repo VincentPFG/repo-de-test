@@ -8,6 +8,9 @@ import WImg from '~/components/WImg.vue'
 
 import axios from 'axios'
 
+# import 'materialize-css'
+# import 'materialize-css/sass/materialize.scss'
+
 export default (Vue, {appOptions, head}) ->
 	Vue.component 'Layout', DefaultLayout
 	Vue.component 'VgImg', VgImg
