@@ -1,0 +1,8 @@
+title: test
+image: /uploads/foret.jpg
+body: |-
+  du texte
+
+  un image:
+
+  ![alt text](/uploads/neige.jpg "title")
