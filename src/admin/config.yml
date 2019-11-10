@@ -29,3 +29,22 @@ collections:
         label: 'Test Image'
         name: 'image'
         widget: 'image'
+-
+    name: 'test'
+    label: 'Test YAML'
+    folder: 'test'
+    extension: 'yml'
+    create: true
+    fields:
+    -
+        label: "Title"
+        name: "title"
+        widget: "string"
+    -
+        label: 'Test Image'
+        name: 'image'
+        widget: 'image'
+    -
+        label: "Body"
+        name: "body"
+        widget: "markdown"
